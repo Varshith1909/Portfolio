@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    color: #49fb35;
+}
+
+.info{
+    color: #49fb35;
+    width: 65%;
+    text-align: center;
+}
