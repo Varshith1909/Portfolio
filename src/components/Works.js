@@ -12,7 +12,7 @@ function Works() {
                 Features include a trailer links, dynamically generated 
                 movie and TV show pages and an interactive UI replicated 
                 from the original Netflix app.</p>
-                <a href='https://netflix-clone-ccfec.web.app/'>Netflix Clone</a>
+                <a href='https://netflix-clone-ccfec.web.app/' className='netflix'>Netflix Clone</a>
             </div>
             <div className='p2'>
                 <h2>Breast Cancer Detection Using CNN</h2>

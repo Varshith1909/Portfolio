@@ -1,0 +1,74 @@
+.contact{
+    color: #49fb35;
+}
+
+.form-data{
+    color: #49fb35;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #49fb35;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.main-form{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.lab{
+    display: inline-block;
+    text-align: left;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.submit-btn{
+    background-color: #49fb35;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.inp{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #060606;
+    color: #49fb35;
+}
+
+textarea {
+    height: 100px;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .form-data {
+        width: 60%;
+        align-items: center;
+        margin: 20px auto;
+    }
+}
