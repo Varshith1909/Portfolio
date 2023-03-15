@@ -79,5 +79,41 @@ li{
 .title{
     padding: 10px;
 }
+.edu{
+    width: 100px;
+    border-radius: 50%;
+}
 
-/* font-family : monospace */
+.lis{
+    color: #49fb35;
+    list-style: none;
+    text-align: center;
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@media screen and (max-width:768px){
+    .job{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .job1,.job2{
+        width: 100%;
+    }
+
+    .main{
+        flex-direction: column-reverse;
+    }
+
+    .info{
+        width: 80%;
+    }
+}

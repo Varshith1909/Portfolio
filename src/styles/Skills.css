@@ -16,27 +16,34 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-    flex-basis: 45%;
+    flex-basis: 30%;
 }
 
 h3{
     color: #49fb35;
 }
 
-progress{
-    width: 75%;
-    height: 20px;
-    margin: 5px;
-    border-radius: 10px;
-    background-color: black;
-}
-
-progress::-webkit-progress-value {
-    background-color: #49fb35;
-    border-radius: 10px;
-}
 
 h1,h2{
     color: #49fb35;
 }
 
+.CircularProgressbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 150px;
+}
+
+.cbar, .cbar-path{
+    stroke: #49fb35;
+} 
+
+.CircularProgressbar-trail {
+    stroke: gray;
+}
+
+.CircularProgressbar-text{
+    transform: translate(-15px,5px);
+}

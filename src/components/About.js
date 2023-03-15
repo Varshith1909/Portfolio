@@ -3,6 +3,8 @@ import '../styles/About.css';
 import pic from './images/pic2.jpg';
 import job1 from './images/kidmoz.jpeg';
 import job2 from './images/krushna.jpeg';
+import lendi from './images/lendi.jpeg';
+import psu from './images/psu.jpeg';
 
 function About() {
   return (
@@ -43,9 +45,30 @@ function About() {
                     </ul>
                 </div>
             </div>
+            <h2 className='head'>Education</h2>
+            <div className='education'>
+                <div className='ms'>
+                    <ul>
+                        <img src={lendi} alt='lendi' className='edu'/>
+                        <li className='lis'>Master in Computer Science</li>
+                        <li className='lis'>Portland State University</li>
+                        <li className='lis'>Year : 2022 - 2024</li>
+                        <li className='lis'>CGPA : 4.0</li>
+                    </ul>
+                </div>
+                <div className='btech'>
+                    <ul>
+                        <img src={psu} alt='psu' className='edu'/>
+                        <li className='lis'>Bachelor of Science in Computer Science</li>
+                        <li className='lis'>Lendi Institute of Engineering and Technology</li>
+                        <li className='lis'>Year : 2018 - 2022</li>
+                        <li className='lis'>CGPA : 3.4</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-  )
+    )
 }
 
 export default About

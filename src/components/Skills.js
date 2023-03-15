@@ -1,74 +1,66 @@
 import React from 'react';
-import '../styles/Skills.css'
+import '../styles/Skills.css';
+import { CircularProgressbar, buildStyles, CircularProgressbarWithChildren } from 'react-circular-progressbar';
 
 function Skills() {
-  return (
+
+    return (
     <div className='main-sk'>
         <h1>Skills</h1>
         <div className='prgm'>
-            <h2>Programming Languages</h2>
             <div className='skill'>
                 <div>
+                    <CircularProgressbar value={85} text='85%' className='cbar'/>
                     <h3>C</h3>
-                    <progress value="90" max="100" title="90%"></progress>
                 </div>
                 <div>
+                    <CircularProgressbar value={80} text='80%' className='cbar'/>
                     <h3>C++</h3>
-                    <progress value="90" max="100" title="90%"></progress>
                 </div>
                 <div>
+                    <CircularProgressbar value={85} text='85%' className='cbar'/>
                     <h3>Python</h3>
-                    <progress value="90" max="100" title="90%"></progress>
                 </div>
                 <div>
+                    <CircularProgressbar value={75} text='75%' className='cbar'/>
                     <h3>Java</h3>
-                    <progress value="90" max="100" title="90%"></progress>
                 </div>
                 <div>
+                    <CircularProgressbar value={77} text='77%' className='cbar'/>
                     <h3>R</h3>
-                    <progress value="90" max="100" title="90%"></progress>
                 </div>
                 <div>
+                    <CircularProgressbar value={73} text='73%' className='cbar'/>
                     <h3>Javascript</h3>
-                    <progress value="90" max="100" title="90%"></progress>
                 </div>
                 <div>
+                    <CircularProgressbar value={95} text='95%' className='cbar'/>
                     <h3>HTML/CSS</h3>
-                    <progress value="90" max="100" title="90%"></progress>
                 </div>
                 <div>
-                    <h3>Javascript</h3>
-                    <progress value="90" max="100" title="90%"></progress>
+                    <CircularProgressbar value={65} text='65%' className='cbar'/>
+                    <h3>PHP</h3>
                 </div>
-            </div>
-        </div>
-        <div className='dbms'>
-            <h2>Database Management Systems</h2>
-            <div>
-                <h3>MY SQL</h3>
-                <progress value="90" max="100" title="90%"></progress>
-            </div>
-            <div>
-                <h3>Postgresql</h3>
-                <progress value="90" max="100" title="90%"></progress>
-            </div>
-        </div>
-        <div className='frameworks'>
-            <h2>Frameworks</h2>
-            <div>
-                <h3>React JS</h3>
-                <progress value="90" max="100" title="90%"></progress>
-            </div>
-        </div>
-        <div className='others'>
-            <h2>Others</h2>
-            <div>
-                <h3>Firebase</h3>
-                <progress value="90" max="100" title="90%"></progress>
-            </div>
-            <div>
-                <h3>Drupal</h3>
-                <progress value="90" max="100" title="90%"></progress>
+                <div>
+                    <CircularProgressbar value={85} text='85%' className='cbar'/>
+                    <h3>MY SQL</h3>
+                </div>
+                <div>
+                    <CircularProgressbar value={85} text='85%' className='cbar'/>
+                    <h3>Postgresql</h3>
+                </div>
+                <div>
+                    <CircularProgressbar value={77} text='77%' className='cbar'/>
+                    <h3>React JS</h3>
+                </div>
+                <div>
+                    <CircularProgressbar value={60} text='60%' className='cbar'/>
+                    <h3>Firebase</h3>
+                </div>
+                <div>
+                    <CircularProgressbar value={58} text='58%' className='cbar'/>
+                    <h3>Drupal</h3>
+                </div>
             </div>
         </div>
     </div>
