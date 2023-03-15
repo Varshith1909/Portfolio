@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Skills.css';
-import { CircularProgressbar, buildStyles, CircularProgressbarWithChildren } from 'react-circular-progressbar';
+import { CircularProgressbar } from 'react-circular-progressbar';
 
 function Skills() {
 
@@ -11,55 +11,55 @@ function Skills() {
             <div className='skill'>
                 <div>
                     <CircularProgressbar value={85} text='85%' className='cbar'/>
-                    <h3>C</h3>
+                    <h2>C</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={80} text='80%' className='cbar'/>
-                    <h3>C++</h3>
+                    <h2>C++</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={85} text='85%' className='cbar'/>
-                    <h3>Python</h3>
+                    <h2>Python</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={75} text='75%' className='cbar'/>
-                    <h3>Java</h3>
+                    <h2>Java</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={77} text='77%' className='cbar'/>
-                    <h3>R</h3>
+                    <h2>R</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={73} text='73%' className='cbar'/>
-                    <h3>Javascript</h3>
+                    <h2>Javascript</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={95} text='95%' className='cbar'/>
-                    <h3>HTML/CSS</h3>
+                    <h2>HTML/CSS</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={65} text='65%' className='cbar'/>
-                    <h3>PHP</h3>
+                    <h2>PHP</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={85} text='85%' className='cbar'/>
-                    <h3>MY SQL</h3>
+                    <h2>MY SQL</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={85} text='85%' className='cbar'/>
-                    <h3>Postgresql</h3>
+                    <h2>Postgresql</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={77} text='77%' className='cbar'/>
-                    <h3>React JS</h3>
+                    <h2>React JS</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={60} text='60%' className='cbar'/>
-                    <h3>Firebase</h3>
+                    <h2>Firebase</h2>
                 </div>
                 <div>
                     <CircularProgressbar value={58} text='58%' className='cbar'/>
-                    <h3>Drupal</h3>
+                    <h2>Drupal</h2>
                 </div>
             </div>
         </div>

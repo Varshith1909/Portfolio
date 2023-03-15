@@ -27,8 +27,8 @@
 .pic{
     height: auto;
     float: right;
-    padding-right: 10%;
-    padding-bottom: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
     border-radius: 50%;
     width: 60%;
 }
@@ -115,5 +115,19 @@ li{
 
     .info{
         width: 80%;
+    }
+
+    .pic{
+        margin-right: 60%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .pic{
+        margin-right: 30%;
+    }
+
+    .education{
+        display: inline;
     }
 }

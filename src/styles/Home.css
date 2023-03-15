@@ -1,15 +1,13 @@
 .home-container{
-    background-color: #0e0e0e;
     height: 100%;
 }
 
 .home{
     background-color: #0e0e0e;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .name{
@@ -60,12 +58,8 @@
     align-items: center;
 }
 
-/* @keyframes typing{
-    from {width: 25%};
-    to {width: 50%};
+@media screen and (max-width:500px){
+    .name{
+        width: 50%;
+    }
 }
-
-@keyframes blink-caret{
-    from, to {border-color: transparent;}
-    50% {border-color: #49fb35;}
-} */
