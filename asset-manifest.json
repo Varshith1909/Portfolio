@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2083e340.css",
+    "main.js": "/Portfolio/static/js/main.03f18587.js",
+    "static/media/pic2.jpg": "/Portfolio/static/media/pic2.2d57313d02942774978f.jpg",
+    "static/media/pic1.jpg": "/Portfolio/static/media/pic1.5f74946222190f930f5c.jpg",
+    "static/media/logo.jpg": "/Portfolio/static/media/logo.780a5ee347f2001504cf.jpg",
+    "static/media/lendi.jpeg": "/Portfolio/static/media/lendi.47c4914e071a21cd337d.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.2083e340.css.map": "/Portfolio/static/css/main.2083e340.css.map",
+    "main.03f18587.js.map": "/Portfolio/static/js/main.03f18587.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2083e340.css",
+    "static/js/main.03f18587.js"
+  ]
+}
