@@ -12,7 +12,7 @@ class Navbar extends Component {
         <img src={logo} alt="logo" className="logo" />
         <div className="navbar-text">
             <nav id="links" className={this.state.clicked ? "#navbar active" : "#navbar"}>
-                <Link to="/" className="nav-link" activeClassName="active">Home</Link>
+                <Link to="/*" className="nav-link" activeClassName="active">Home</Link>
                 <Link to="/about" className="nav-link" activeClassName="active">About</Link>
                 <Link to="/skills" className="nav-link" activeClassName="active">Skills</Link>
                 <Link to="/works" className="nav-link" activeClassName="active">Works</Link>
