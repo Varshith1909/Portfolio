@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Navigation from './components/Navbar';
 import './App.css';
@@ -8,14 +9,18 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
+      <div className="App">
         <Navigation />
-        <Home />
-        <About />
-        <Skills />
-        <Works />
-        <Contact />
-    </div>
+        <Routes>
+          <Route exact path="/" element={ <Home/> } />
+          <Route path="/about" element={ <About/> } />
+          <Route path="/skills" element={ <Skills/> } />
+          <Route path="/works" element={ <Works/> } />
+          <Route path="/contact" element={ <Contact/> } />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
