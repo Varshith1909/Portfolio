@@ -1,6 +1,8 @@
 import React from 'react';
 import job1 from './images/kidmoz.jpeg';
 import job2 from './images/krushna.jpeg';
+import '../styles/PreviousWork.css'
+import Footer from './Footer';
 
 function PreviousWorks() {
     return (
@@ -28,6 +30,7 @@ function PreviousWorks() {
                     </ul>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

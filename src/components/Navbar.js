@@ -13,7 +13,7 @@ class Navbar extends Component {
     render() {
         return (
         <div className="navbar">
-            <img src={logo} alt="logo" className="logo" />
+            <Link to='/'><img src={logo} alt="logo" className="logo" /></Link>
             <div className="navbar-text">
                 <nav id="links" className={this.state.clicked ? "#navbar active" : "#navbar"}>
                     <Link to="/" className="nav-link" activeClassName="active" onClick={ this.linkClick }>Home</Link>
@@ -24,9 +24,9 @@ class Navbar extends Component {
                     <Link to="/contact" className="nav-link" activeClassName="active" onClick={ this.linkClick }>Contact</Link>
                 </nav>
             </div>
-            <footer id="mobile" onClick={this.handleClick}>
+            <div id="mobile" onClick={this.handleClick}>
                 <i id="bar" className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
-            </footer>
+            </div>
         </div>
     );
   }

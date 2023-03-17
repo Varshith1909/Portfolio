@@ -3,6 +3,7 @@ import '../styles/About.css';
 import pic from './images/pic2.jpg';
 import lendi from './images/lendi.jpeg';
 import psu from './images/psu.jpeg';
+import Footer from './Footer';
 
 function About() {
     return (
@@ -40,6 +41,7 @@ function About() {
                     </ul>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

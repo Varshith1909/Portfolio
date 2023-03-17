@@ -1,9 +1,20 @@
 import React from 'react';
 import '../styles/Contact.css'
+import Footer from './Footer';
 
 function Contact() {
     const handleSubmit = (event) => {
         event.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        if(!name || !email || !message) {
+            alert('Please fill all the feilds to submit');
+            return;
+        }
+
         alert('Form Submitted Sucessfully!');
     };
 
@@ -24,9 +35,12 @@ function Contact() {
                         <label className='lab' htmlFor='message'>Message:</label>
                         <textarea id='message' name='message' rows='5' cols='21'></textarea>
                     </div>
-                    <input type="submit" value="Submit" className="submit-btn" />
+                    <div>
+                        <input type="submit" value="Submit" className="submit-btn" />
+                    </div>
                 </form>
             </div>
+            <Footer />
         </div>
     )
 }

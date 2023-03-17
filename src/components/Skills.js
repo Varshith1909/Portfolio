@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Skills.css';
 import { CircularProgressbar } from 'react-circular-progressbar';
+import Footer from './Footer';
 
 function Skills() {
 
@@ -63,6 +64,7 @@ function Skills() {
                 </div>
             </div>
         </div>
+        <Footer />
     </div>
   )
 }
