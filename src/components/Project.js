@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Works.css'
 
-function Works() {
+function Project() {
   return (
     <div className='pm'>
         <h1>Projects</h1>
@@ -30,4 +30,4 @@ function Works() {
   )
 }
 
-export default Works
+export default Project
