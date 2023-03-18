@@ -6,12 +6,12 @@ This is my portfolio website which is final project for my Intro to Web Develope
 
 ## Deployed Link - https://varshith1909.github.io/Portfolio/
 
-##Technologies Used\
-•	React JS\
-•	HTML\
-•	CSS\
+## Technologies Used \
+•	React JS \
+•	HTML \
+•	CSS \
 
-##Resources\
+## Resources \
 
 https://react.dev/ \
 https://create-react-app.dev/ \
