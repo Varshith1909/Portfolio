@@ -1,25 +1,25 @@
 # VARSHITH CHENNURU PORTFOLIO
 
-##Description
+## Description
 
 This is my portfolio website which is final project for my Intro to Web Developement course CS563 at Portland State University. This is a multipage website. It consistsof my skills , experience, project works and about me.
 
 ## Deployed Link - https://varshith1909.github.io/Portfolio/
 
-##Technologies Used
-•	React JS
-•	HTML
-•	CSS
+##Technologies Used\
+•	React JS\
+•	HTML\
+•	CSS\
 
-##Resources
+##Resources\
 
-https://react.dev/
-https://create-react-app.dev/
-https://stackoverflow.com/
-https://cdnjs.com/libraries/font-awesome
-https://reactjsexample.com/
-https://blog.logrocket.com/
-https://www.codecademy.com/
+https://react.dev/ \
+https://create-react-app.dev/ \
+https://stackoverflow.com/ \ 
+https://cdnjs.com/libraries/font-awesome \
+https://reactjsexample.com/ \
+https://blog.logrocket.com/ \
+https://www.codecademy.com/ \
 
 
 This project require node to be installed in your system
