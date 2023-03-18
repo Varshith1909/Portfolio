@@ -27,7 +27,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-This project require node to be installed in your system \
+This project require node to be installed in your system 
 
 First clone the project. Then run the following command
 
