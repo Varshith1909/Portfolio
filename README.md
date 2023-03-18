@@ -6,20 +6,20 @@ This is my portfolio website which is final project for my Intro to Web Develope
 
 ## Deployed Link - https://varshith1909.github.io/Portfolio/
 
-## Technologies Used \
+## Technologies Used 
 •	React JS \
 •	HTML \
-•	CSS \
+•	CSS 
 
-## Resources \
+## Resources 
 
 https://react.dev/ \
-https://create-react-app.dev/ \
-https://stackoverflow.com/ \ 
+https://create-react-app.dev/  \
+https://stackoverflow.com/  \ 
 https://cdnjs.com/libraries/font-awesome \
-https://reactjsexample.com/ \
-https://blog.logrocket.com/ \
-https://www.codecademy.com/ \
+https://reactjsexample.com/  \
+https://blog.logrocket.com/  \
+https://www.codecademy.com/  \
 
 
 This project require node to be installed in your system
