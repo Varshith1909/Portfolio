@@ -15,19 +15,19 @@ This is my portfolio website which is final project for my Intro to Web Develope
 
 https://react.dev/ \
 https://create-react-app.dev/  \
-https://stackoverflow.com/  \ 
+https://stackoverflow.com/   
 https://cdnjs.com/libraries/font-awesome \
 https://reactjsexample.com/  \
 https://blog.logrocket.com/  \
-https://www.codecademy.com/  \
+https://www.codecademy.com/  
 
 
-This project require node to be installed in your system
-How to run this project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+This project require node to be installed in your system \
 
 First clone the project. Then run the following command
 
